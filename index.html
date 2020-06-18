@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JOGO DA VELHA</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      background-image: url("https://user-images.githubusercontent.com/53836950/84965153-7fb7b780-b0e4-11ea-8614-cc02f3729ba7.JPEG");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+       background-size: 100% 100%;} 
+    </style>
+</head>
+<body>
+  <h1>JOGO DA VELHA</h1>
+  <div id="buttons-container">
+    <button id="2-players" style="width:200px; height:150px; margin-left: -300px; text-align: center">MULTIPLAYERS</button>
+    <button id="ai-player">
+      <img src="https://user-images.githubusercontent.com/53836950/84966046-db834000-b0e6-11ea-80c4-513c738a12d0.png" alt="some text" style="width:150px; height:150px">
+  </div></button>
+  <div id="container" class="hide">
+    <div class="box" id="block-1"></div>
+    <div class="box" id="block-2"></div class="box">
+    <div class="box" id="block-3"></div class="box">
+    <div class="box" id="block-4"></div class="box">
+    <div class="box" id="block-5"></div class="box">
+    <div class="box" id="block-6"></div class="box">
+    <div class="box" id="block-7"></div class="box">
+    <div class="box" id="block-8"></div class="box">
+    <div class="box" id="block-9"></div class="box">
+    <div id="scoreboard-container">
+      <h2>Placar:</h2>
+      <span class="score-box"><span id="x-scoreboard">X</span>: <span id="scoreboard-1">0</span></span>
+      <span class="score-box"><span id="o-scoreboard"></span>: <span id="scoreboard-2">0</span></span>
+    </div>
+  </div>
+  <div class="hide">
+    <div class="x">X</div>
+    <div class="o"></div>
+  </div>
+  <div id="message" class="hide">
+    <p>x</p>
+  </div>
+   <script src="js/scripts.js"></script>
+</body>
+</html>
